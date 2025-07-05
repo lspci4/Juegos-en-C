@@ -46,5 +46,5 @@ void mostrar_tablero(char tablero[3][3]){
         }
     }
     
-    printf("\n\n\n");
+    printf("\n\n");
 }
