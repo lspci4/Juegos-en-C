@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 void inicializa_tablero(char tablero[3][3]);
+void mostrar_tablero(char tablero[3][3]);
 
 int main()
 {
@@ -8,6 +9,7 @@ int main()
     char tablero[3][3];
     
     inicializa_tablero(tablero);
+    mostrar_tablero(tablero);
     
 	return 0;
 }
@@ -20,7 +22,21 @@ void inicializa_tablero(char tablero[3][3]){
     for(fila = 0; fila < 3; fila++){
         for(columna = 0; columna < 3; columna++){
             tablero[fila][columna] = celda++;
-            printf("%c", tablero[fila][columna]);
+            //printf("%c", tablero[fila][columna]);
+        }
+    }
+}
+
+// Muestra el tablero con formato
+void mostrar_tablero(char tablero[3][3]){
+    int fila, columna;
+    
+    for(fila = 0; fila < 3; fila++){
+        for(columna = 0; columna < 3; columna++){
+            if(columna < 2){
+                printf(" %c |", tablero[fila][columna]);
+            }else
+                printf(" %c |", tablero[fila][columna]);
         }
     }
 }
