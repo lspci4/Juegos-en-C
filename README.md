@@ -14,7 +14,7 @@ Un clásico juego del gato para dos jugadores en terminal.
    ./juego_gato
 
 Qué aprendí
-Manejo de strings y caracteres en C.
-Generación de números aleatorios para seleccionar palabras.
-Dibujo en terminal usando ASCII art.
-Estructuras de control para gestionar intentos.
+- Manejo de strings y caracteres en C.
+- Generación de números aleatorios para seleccionar palabras.
+- Dibujo en terminal usando ASCII art.
+- Estructuras de control para gestionar intentos.
