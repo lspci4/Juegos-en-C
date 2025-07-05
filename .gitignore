@@ -5,3 +5,13 @@
 # Ignorar archivos personalizados
 juego_gato_c.mk
 juego_gato_c.project
+
+# Ignorar binarios compilados
+*.o
+*.out
+*.exe
+*.elf
+
+# Archivos de backup/temporales
+*~
+*.swp
