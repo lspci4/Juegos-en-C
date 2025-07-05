@@ -35,8 +35,14 @@ void mostrar_tablero(char tablero[3][3]){
         for(columna = 0; columna < 3; columna++){
             if(columna < 2){
                 printf(" %c |", tablero[fila][columna]);
-            }else
-                printf(" %c |", tablero[fila][columna]);
+            }else{
+                printf(" %c ", tablero[fila][columna]);
+            }
+        }
+        
+        // separador de fila
+        if(fila < 2){
+            printf("\n---------\n");
         }
     }
 }
