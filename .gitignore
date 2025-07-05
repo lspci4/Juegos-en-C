@@ -1,0 +1,7 @@
+# Ignorar archivos de configuración de entorno
+.clang-format
+.clangd
+
+# Ignorar archivos personalizados
+juego_gato_c.mk
+juego_gato_c.project
